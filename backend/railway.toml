@@ -1,0 +1,12 @@
+# Deploy no Railway (serviço "backend").
+# Para o worker, crie outro serviço apontando para esta mesma pasta e defina
+# o Start Command: celery -A app.worker.celery_app worker --loglevel=info
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+healthcheckPath = "/health"
+healthcheckTimeout = 100
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 5

@@ -1,0 +1,8 @@
+# Deploy no Railway (serviço "frontend").
+# Defina a variável VITE_API_URL com a URL pública do backend (é usada no build).
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+restartPolicyType = "ON_FAILURE"

@@ -1,0 +1,10 @@
+[
+  {"input": "O sistema está fora do ar e não consigo fazer login desde cedo!", "expected": "suporte"},
+  {"input": "Como faço para exportar o relatório em PDF?", "expected": "suporte"},
+  {"input": "Gostaria de saber o preço do plano empresarial para 50 usuários.", "expected": "vendas"},
+  {"input": "Vocês fazem demonstração do produto? Tenho interesse em contratar.", "expected": "vendas"},
+  {"input": "Fui cobrado duas vezes no cartão este mês, preciso do reembolso.", "expected": "financeiro"},
+  {"input": "Podem reenviar a nota fiscal de outubro?", "expected": "financeiro"},
+  {"input": "Parabéns pelo evento de ontem, foi ótimo!", "expected": "outro"},
+  {"input": "Qual é o endereço do escritório de vocês?", "expected": "outro"}
+]
